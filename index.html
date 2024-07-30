@@ -15,7 +15,7 @@
 		  <li><a href="index.html">Home</a></li>
 		  <li><a href="index.html">About</a></li>
 		  <li><a href="#pro">Projects</a></li>
-		  <li><a href="#gal">Events</a></li>
+		  <li><a href="#vol">Volunteers</a></li>
 		  <li><a href="#gal">Gallery</a></li>
 		  <li><a href="#cont">Contact Us</a></li>
 		</ul>
@@ -24,7 +24,7 @@
 		  <li class="hideOnMobile"><a href="#">Home</a></li>
 		  <li class="hideOnMobile"><a href="#abt">About</a></li>
 		  <li class="hideOnMobile"><a href="#pro">Project</a></li>
-		  <li class="hideOnMobile"><a href="#">Events</a></li>
+		  <li class="hideOnMobile"><a href="#vol">Volunteers</a></li>
 		  <li class="hideOnMobile"><a href="#gal">Gallery</a></li>
 		  <li class="hideOnMobile"><a href="#cont">Contact Us</a></li>
 		  <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" style="color: #fff;" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
@@ -109,7 +109,7 @@
           Launched one month ago.
           </p>
           <div class="btn-group">
-            <button class="btn-pink btn-project">Read More</button>
+            <button class="btn-pink btn-project"><i class="fa-sharp fa-solid fa-arrow-right"></i></button>
             <a href="project.html">
               <i title="Live Link" class="fa-solid fa-link icon"></i>
             </a>
@@ -165,7 +165,7 @@
 	</ul>
 </div>
 </div>
- <div class="container">	
+ <div id="vol" class="container">	
 <div class="contents-wraper">
 <div class="header"><h1> Our Volunteers</h1></div>
 			
@@ -183,8 +183,8 @@
 			</div>
 
 			<div class="testItem">
-				<img src="Voleentere/akanksha.png">
-				<h3>Akanksha Anshu</h3>
+				<img src="sou2.png">
+				<h3>Sourabh Kumar</h3>
 				<p>"Stand Up, Speak Out, Change the World"</p>
 				<div class="v-icon">
 					<i class="fa-brands fa-square-instagram"></i>
@@ -206,8 +206,8 @@
 			</div>
 
 			<div class="testItem">
-				<img src="sourabhk.png">
-				<h3>Sourabh Kumar</h3>
+				<img src="Voleentere/akanksha.png">
+				<h3>Akanksha Anshu</h3>
 				<p>"Building Bridges to a Better Future"</p>
 				<div class="v-icon">
 					<i class="fa-brands fa-square-instagram"></i>
@@ -421,12 +421,6 @@ Developed with <i class="fa-solid fa-heart" style="color: #e70d44;"></i> by <a h
       const sidebar = document.querySelector('.sidebar')
       sidebar.style.display = 'none'
     }
-//to prevent from copy paste and right click
-document.addEventListener("contextmenu", function(event){
-event.preventDefault();
- alert('Bada aaya inspect krne');
-}, false);
-
 
 </script>
 
